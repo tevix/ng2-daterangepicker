@@ -3,8 +3,8 @@ import { KeyValueDiffer, KeyValueDiffers, ElementRef, OnDestroy, DoCheck  } from
 import { BehaviorSubject } from 'rxjs/BehaviorSubject';
 import { DaterangepickerConfig } from './config.service';
 
-// import * as $ from "jquery";
-import * as moment from 'moment';
+const $ = (window as any).$ || require("jquery");
+
 import 'bootstrap-daterangepicker';
 
 @Directive({
