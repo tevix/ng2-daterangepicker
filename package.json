@@ -53,7 +53,6 @@
     "@types/node": "~8.0.24",
     "codelyzer": "~3.1.2",
     "core-js": "^2.4.1",
-    "install-peers": "^1.0.3",
     "jasmine-core": "~2.7.0",
     "jasmine-spec-reporter": "~4.2.1",
     "karma": "~1.7.0",
